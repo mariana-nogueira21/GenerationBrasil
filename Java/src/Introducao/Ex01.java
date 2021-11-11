@@ -16,6 +16,7 @@ public class Ex01 {
 		mes = calc.nextInt();
 		System.out.print("Quantos dias: ");
 		dia = calc.nextInt();
+		calc.close();
 		
 		totDia = (ano * 365) + (mes * 30) + dia ;
 		

@@ -14,6 +14,7 @@ public class Ex04 {
 		a = calc.nextInt();
 		b = calc.nextInt();
 		c = calc.nextInt();
+		calc.close();
 		
 		r = (int) Math.pow((a + b), 2);
 		s = (int) Math.pow((b + c), 2);

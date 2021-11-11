@@ -12,6 +12,7 @@ public class Ex03 {
 		
 		System.out.print("Informe quantos segundos: ");
 		seg = calc.nextInt();
+		calc.close();
 		
 		hora = seg / 3600;
 		min = (seg % 3600) / 60;

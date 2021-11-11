@@ -12,15 +12,16 @@ public class Ex04 {
 		
 		Scanner ler = new Scanner(System.in);
 
-		System.out.println("Digite um número: ");
+		System.out.print("Digite um número: ");
 		num = ler.nextInt();
+		ler.close();
 		
 		if (num % 2 == 0) {
 			resp = Math.sqrt(num);
-			System.out.printf("%d é PAR e sua raiz quadrada é %d",num, resp);
+			System.out.print("O número é PAR e sua raiz quadrada é: " + resp);
 		} else {
-			resp = num * num;
-			System.out.printf("%d é ÍMPAR e elevado ao quadrado é %d",num, resp);
+			resp = Math.pow(num, 2);
+			System.out.print("O número é ÍMPAR e elevado ao quadrado é: " + resp);
 		}
 	}
 

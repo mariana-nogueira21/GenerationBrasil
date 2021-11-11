@@ -12,6 +12,7 @@ public class Ex03 {
 		
 		System.out.print("Idade: ");
 		idade = ler.nextInt();
+		ler.close();
 		
 		if (idade >= 10 && idade <= 14) {
 			System.out.print("Infatil");

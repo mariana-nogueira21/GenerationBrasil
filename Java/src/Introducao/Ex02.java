@@ -12,6 +12,7 @@ public class Ex02 {
 		
 		System.out.print("Informe quantos dias de vida você tem: ");
 		dia = calc.nextInt();
+		calc.close();
 				
 		ano = dia / 365;
 		mes = (dia % 365) / 30;

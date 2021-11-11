@@ -16,6 +16,7 @@ public class Ex01 {
 		num2 = ler.nextInt();
 		System.out.print("Primeiro número: ");
 		num3 = ler.nextInt();
+		ler.close();
 		
 		if (num1 > num2 && num1 > num3) {
 			numMaior = num1;

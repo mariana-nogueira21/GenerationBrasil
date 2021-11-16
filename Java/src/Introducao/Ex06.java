@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ex06 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
 		double x1, x2, y1, y2, d;
 		
 		Scanner leia = new Scanner(System.in);

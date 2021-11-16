@@ -15,16 +15,17 @@ public class ExercicioMatriz {
 		for(int l=0; l < 3; l++) {
 			
 			System.out.println("ALUNO " + aluno++);
-			
-			for(int c=0; c < 4; c++) {
+			int c;
+			for( c=0; c < 4; c++) {
 				System.out.print(c+1 + "ª nota: ");
 				nota[l][c] = leia.nextDouble();
 				
-				soma = soma + nota[l][c];
-				media = soma / 4;
 				
-				System.out.println("Média: " + media);
 			}
+			soma = soma + nota[l][c];
+			media = soma / 4;
+			
+			System.out.println("Média: " + media);
 			
 			System.out.println("----------------");
 		}

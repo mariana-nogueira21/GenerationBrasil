@@ -25,9 +25,6 @@ public class Ex06 {
 		
 		leia.close();
 		
-		System.out.print(soma);
-		System.out.print(quant);
-		
 		System.out.println("Média dos números múltiplos de 3: " + media);
 		System.out.println("Programa finalizado");
 

@@ -13,7 +13,7 @@ public class MoldeAviao {
 		if (this.abastecido == true) {
 			System.out.println("Preparar para iniciar vôo!");
 		} else {
-			System.out.println("ERRO! Não possivel iniciar o vôo...");
+			System.out.println("ERRO! Não foi possivel iniciar o vôo...");
 		}	
 	}
 	

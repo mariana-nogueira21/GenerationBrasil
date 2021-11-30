@@ -42,9 +42,13 @@ SELECT * FROM tb_pizza WHERE valor > 45.00;
 
 SELECT * FROM tb_pizza WHERE valor > 29.00 AND valor < 60.00;
 
-SELECT * FROM tb_pizza WHERE sabor LIKE "%C%";
+SELECT * FROM tb_pizza WHERE sabor LIKE "C%";
 
 SELECT tb_pizza.sabor, tb_pizza.valor, tb_categoria.categoria 
 FROM tb_pizza 
 INNER JOIN tb_categoria on tb_categoria.id_categoria = tb_pizza.categoria_id;
 
+SELECT tb_pizza.sabor, tb_pizza.valor, tb_categoria.categoria 
+FROM tb_pizza 
+INNER JOIN tb_categoria on tb_categoria.id_categoria = tb_pizza.categoria_id
+WHERE tb_categoria.categoria = "Pequena";
